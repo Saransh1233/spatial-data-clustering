@@ -28,9 +28,9 @@ You must have Python 3 installed, along with the following libraries:
 * seaborn
 
 You can install these dependencies using pip:
-```bash
+```
 pip install pandas scikit-learn matplotlib seaborn
-
+```
 2. Execute the Script
 To run the analysis, clone this repository, navigate to the project directory in your terminal, and run the analysis.py script. Ensure xy_data.csv is in the same folder.
 The script will print its progress to the console and will automatically generate two image files: elbow_plot.png and cluster_plot.png.
