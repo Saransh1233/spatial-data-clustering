@@ -31,12 +31,12 @@ You can install these dependencies using pip:
 ```
 pip install pandas scikit-learn matplotlib seaborn
 ```
-2. Execute the Script
+## Execute the Script
 To run the analysis, clone this repository, navigate to the project directory in your terminal, and run the analysis.py script. Ensure xy_data.csv is in the same folder.
 The script will print its progress to the console and will automatically generate two image files: elbow_plot.png and cluster_plot.png.
 
 
-Methodology
+## Methodology
 Data Loading & Preprocessing: The xy_data.csv file is loaded. The 'x' and 'y' features are scaled using StandardScaler to ensure the K-Means algorithm weights both axes equally.
 
 Optimal 'k': The Elbow Method is used to find the optimal number of clusters ('k'). The script calculates and plots the inertia (sum of squared distances) for k-values from 1 to 10.
@@ -44,11 +44,11 @@ Optimal 'k': The Elbow Method is used to find the optimal number of clusters ('k
 Clustering: The K-Means algorithm is run using the optimal k=4, as determined by the Elbow Method and required by the project.
 
 
-Results
+## Results
 The analysis successfully identifies 4 distinct clusters from the spatial data.
 
-Elbow Method (Justifying k=4)
+###Elbow Method (Justifying k=4)
 The script generates elbow_plot.png, which clearly shows a "bend" or "elbow" at k=4, indicating that this is the optimal number of clusters.
 
-Final Clusters
+###Final Clusters
 The script generates cluster_plot.png, which visualizes the 4 final clusters (color-coded) and their calculated centroids (marked with a red 'X').
