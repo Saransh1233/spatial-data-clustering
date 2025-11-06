@@ -47,8 +47,8 @@ Clustering: The K-Means algorithm is run using the optimal k=4, as determined by
 ## Results
 The analysis successfully identifies 4 distinct clusters from the spatial data.
 
-###Elbow Method (Justifying k=4)
+1. Elbow Method (Justifying k=4)
 The script generates elbow_plot.png, which clearly shows a "bend" or "elbow" at k=4, indicating that this is the optimal number of clusters.
 
-###Final Clusters
+2. Final Clusters
 The script generates cluster_plot.png, which visualizes the 4 final clusters (color-coded) and their calculated centroids (marked with a red 'X').
